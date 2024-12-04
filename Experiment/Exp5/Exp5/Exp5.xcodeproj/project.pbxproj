@@ -7,6 +7,33 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		38580CAB2CFB06E700F23142 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		38580CB62CFB06EF00F23142 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		38580CC12CFB06F500F23142 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		38F5DBB72CEE07170053AF55 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19,8 +46,64 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		38580CAD2CFB06E700F23142 /* deque */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = deque; sourceTree = BUILT_PRODUCTS_DIR; };
+		38580CB82CFB06EF00F23142 /* hashset */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hashset; sourceTree = BUILT_PRODUCTS_DIR; };
+		38580CC32CFB06F500F23142 /* multiset */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = multiset; sourceTree = BUILT_PRODUCTS_DIR; };
 		38F5DBB92CEE07170053AF55 /* Exp5 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Exp5; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		382EF1732CFED86100CE2315 /* Exceptions for "deque template for student" folder in "deque" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex1.cpp,
+				Student.cpp,
+				Teacher.cpp,
+			);
+			target = 38580CAC2CFB06E700F23142 /* deque */;
+		};
+		382EF18D2CFEE1AA00CE2315 /* Exceptions for "hashset template for student" folder in "hashset" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex1.cpp,
+				Student.cpp,
+				Teacher.cpp,
+			);
+			target = 38580CB72CFB06EF00F23142 /* hashset */;
+		};
+		38580CCA2CFB06FA00F23142 /* Exceptions for "multiset for student" folder in "Exp5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				multiset.cpp,
+			);
+			target = 38F5DBB82CEE07170053AF55 /* Exp5 */;
+		};
+		38580CCC2CFB06FD00F23142 /* Exceptions for "multiset for student" folder in "multiset" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				multiset.cpp,
+			);
+			target = 38580CC22CFB06F500F23142 /* multiset */;
+		};
+		38580CCE2CFB0ADE00F23142 /* Exceptions for "deque template for student" folder in "Exp5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex1.cpp,
+				Student.cpp,
+				Teacher.cpp,
+			);
+			target = 38F5DBB82CEE07170053AF55 /* Exp5 */;
+		};
+		38580CCF2CFB0ADE00F23142 /* Exceptions for "hashset template for student" folder in "Exp5" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ex1.cpp,
+				Student.cpp,
+				Teacher.cpp,
+			);
+			target = 38F5DBB82CEE07170053AF55 /* Exp5 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		38F5DBBB2CEE07170053AF55 /* Exp5 */ = {
@@ -30,22 +113,55 @@
 		};
 		38F5DBDA2CEE07A80053AF55 /* deque template for student */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38580CCE2CFB0ADE00F23142 /* Exceptions for "deque template for student" folder in "Exp5" target */,
+				382EF1732CFED86100CE2315 /* Exceptions for "deque template for student" folder in "deque" target */,
+			);
 			path = "deque template for student";
 			sourceTree = "<group>";
 		};
 		38F5DBE12CEE07A80053AF55 /* hashset template for student */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38580CCF2CFB0ADE00F23142 /* Exceptions for "hashset template for student" folder in "Exp5" target */,
+				382EF18D2CFEE1AA00CE2315 /* Exceptions for "hashset template for student" folder in "hashset" target */,
+			);
 			path = "hashset template for student";
 			sourceTree = "<group>";
 		};
 		38F5DBE42CEE07A80053AF55 /* multiset for student */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				38580CCA2CFB06FA00F23142 /* Exceptions for "multiset for student" folder in "Exp5" target */,
+				38580CCC2CFB06FD00F23142 /* Exceptions for "multiset for student" folder in "multiset" target */,
+			);
 			path = "multiset for student";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		38580CAA2CFB06E700F23142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38580CB52CFB06EF00F23142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38580CC02CFB06F500F23142 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F5DBB62CEE07170053AF55 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,6 +187,9 @@
 			isa = PBXGroup;
 			children = (
 				38F5DBB92CEE07170053AF55 /* Exp5 */,
+				38580CAD2CFB06E700F23142 /* deque */,
+				38580CB82CFB06EF00F23142 /* hashset */,
+				38580CC32CFB06F500F23142 /* multiset */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,6 +197,63 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		38580CAC2CFB06E700F23142 /* deque */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38580CB32CFB06E700F23142 /* Build configuration list for PBXNativeTarget "deque" */;
+			buildPhases = (
+				38580CA92CFB06E700F23142 /* Sources */,
+				38580CAA2CFB06E700F23142 /* Frameworks */,
+				38580CAB2CFB06E700F23142 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deque;
+			packageProductDependencies = (
+			);
+			productName = deque;
+			productReference = 38580CAD2CFB06E700F23142 /* deque */;
+			productType = "com.apple.product-type.tool";
+		};
+		38580CB72CFB06EF00F23142 /* hashset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38580CBC2CFB06EF00F23142 /* Build configuration list for PBXNativeTarget "hashset" */;
+			buildPhases = (
+				38580CB42CFB06EF00F23142 /* Sources */,
+				38580CB52CFB06EF00F23142 /* Frameworks */,
+				38580CB62CFB06EF00F23142 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hashset;
+			packageProductDependencies = (
+			);
+			productName = hashset;
+			productReference = 38580CB82CFB06EF00F23142 /* hashset */;
+			productType = "com.apple.product-type.tool";
+		};
+		38580CC22CFB06F500F23142 /* multiset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38580CC72CFB06F500F23142 /* Build configuration list for PBXNativeTarget "multiset" */;
+			buildPhases = (
+				38580CBF2CFB06F500F23142 /* Sources */,
+				38580CC02CFB06F500F23142 /* Frameworks */,
+				38580CC12CFB06F500F23142 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = multiset;
+			packageProductDependencies = (
+			);
+			productName = multiset;
+			productReference = 38580CC32CFB06F500F23142 /* multiset */;
+			productType = "com.apple.product-type.tool";
+		};
 		38F5DBB82CEE07170053AF55 /* Exp5 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38F5DBC02CEE07170053AF55 /* Build configuration list for PBXNativeTarget "Exp5" */;
@@ -112,6 +288,15 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1610;
 				TargetAttributes = {
+					38580CAC2CFB06E700F23142 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					38580CB72CFB06EF00F23142 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					38580CC22CFB06F500F23142 = {
+						CreatedOnToolsVersion = 16.1;
+					};
 					38F5DBB82CEE07170053AF55 = {
 						CreatedOnToolsVersion = 16.1;
 					};
@@ -132,11 +317,35 @@
 			projectRoot = "";
 			targets = (
 				38F5DBB82CEE07170053AF55 /* Exp5 */,
+				38580CAC2CFB06E700F23142 /* deque */,
+				38580CB72CFB06EF00F23142 /* hashset */,
+				38580CC22CFB06F500F23142 /* multiset */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		38580CA92CFB06E700F23142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38580CB42CFB06EF00F23142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38580CBF2CFB06F500F23142 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		38F5DBB52CEE07170053AF55 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -147,6 +356,56 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		38580CB12CFB06E700F23142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38580CB22CFB06E700F23142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		38580CBD2CFB06EF00F23142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Debug;
+		};
+		38580CBE2CFB06EF00F23142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
+			};
+			name = Release;
+		};
+		38580CC82CFB06F500F23142 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		38580CC92CFB06F500F23142 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		38F5DBBE2CEE07170053AF55 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -154,7 +413,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -205,6 +464,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SYMROOT = build;
 			};
 			name = Debug;
 		};
@@ -215,7 +475,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -259,6 +519,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SYMROOT = build;
 			};
 			name = Release;
 		};
@@ -267,6 +528,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
 			};
 			name = Debug;
 		};
@@ -275,12 +537,40 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SYMROOT = build;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		38580CB32CFB06E700F23142 /* Build configuration list for PBXNativeTarget "deque" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38580CB12CFB06E700F23142 /* Debug */,
+				38580CB22CFB06E700F23142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38580CBC2CFB06EF00F23142 /* Build configuration list for PBXNativeTarget "hashset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38580CBD2CFB06EF00F23142 /* Debug */,
+				38580CBE2CFB06EF00F23142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38580CC72CFB06F500F23142 /* Build configuration list for PBXNativeTarget "multiset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38580CC82CFB06F500F23142 /* Debug */,
+				38580CC92CFB06F500F23142 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		38F5DBB42CEE07170053AF55 /* Build configuration list for PBXProject "Exp5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
